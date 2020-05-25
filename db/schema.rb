@@ -18,8 +18,6 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "birthdate"
   end
 
-  create_table "students", force: :cascade do |t|
-    t.string "name"
-  end
+
 
 end
